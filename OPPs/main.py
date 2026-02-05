@@ -1,10 +1,10 @@
-class Member:
+class Member:# Classes
     def __init__(self,name,post):# Constructor function
         
         self.name = name
         self.post = post
 
-    def info(self):
+    def info(self):# Methods
         print(f"{self.name} is a {self.post}.")
 
 a=Member("Anurag","Fullstack Developer")
